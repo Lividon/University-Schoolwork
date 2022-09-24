@@ -1,0 +1,23 @@
+<?php
+    require "../lib/database.php";
+    $conn = connect_to_database();
+?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>TA List</title>
+</head>
+<body>
+	<h1>Your TAs are here, click one to see their information:</h1>
+	<?php
+		$query = mysqli_query($conn, "SELECT first_name, last_name FROM TA_List");
+		if(!empty($query))
+                        {
+                                while($row = $query->fetch_assoc())
+                                {
+                                        echo "whee";
+                                }
+                        }
+	?>
+</body>
+</html>

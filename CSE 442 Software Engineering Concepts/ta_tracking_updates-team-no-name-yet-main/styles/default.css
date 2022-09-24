@@ -1,0 +1,38 @@
+.removeRow {
+  background-color: #34ebd5;
+  color: #FFFFFF;
+}
+
+a,
+a:focus,
+a:hover {
+  color: #fff;
+}
+
+/*
+ * Base structure
+ */
+body {
+  background-color: #333;
+  background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url("https://upload.wikimedia.org/wikipedia/commons/b/b6/Victor_E._Bull%2C_November_5%2C_2013.jpg");
+  margin: 0;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  color: #fff;
+}
+
+body {
+  text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
+  box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5);
+}
+
+* Footer
+*/
+.mastfoot {
+  color: rgba(255, 255, 255, .5);
+}

@@ -1,0 +1,12 @@
+/*
+ * Base structure
+ */
+html,
+body {
+  background-image: linear-gradient(rgba(0,0,0,.75), rgba(0,0,0,1)), url("https://upload.wikimedia.org/wikipedia/commons/1/1d/Alumni_Arena_%28UB%29.jpg");
+}
+
+.removeRow {
+    background-color: #eb3481;
+    color: #FFFFFF;
+}
