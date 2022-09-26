@@ -1,0 +1,16 @@
+@media only screen and (max-width: 800px) {
+    .sideContainer {
+        display: none;
+    }
+
+    .feedContainer {
+        width: 100%;
+        margin-top: 5%;
+    }
+
+    .post-form {
+        margin-top: 10%;
+    }
+
+
+}

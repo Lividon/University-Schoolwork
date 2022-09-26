@@ -1,0 +1,298 @@
+* {
+  box-sizing: border-box;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 31.3%;
+  padding: 1%;
+  margin: 1%;
+  height: 1000px;
+}
+/*our style guide section name/titles. Free to change or edit if needed*/
+div {
+  color: gray;
+  font-size: 7px;
+  font-family: "Roboto", sans-serif;
+}
+/*this div would effect all text in div */
+
+.header {
+  font-size: 16px;
+  margin-top: 20px;
+}
+
+/* Fonts and size */
+h1,
+h2,
+h3,
+p,
+span {
+  font-family: "Roboto", sans-serif;
+}
+.fonts-size h1,
+h2,
+h3 {
+  margin-top: 15px;
+  margin-bottom: 0;
+}
+.fonts-size p {
+  margin-top: 0;
+  font-size: 14px;
+  font-weight: normal;
+  color: #bbbfc7;
+}
+.fonts-size h1 {
+  font-size: 44px;
+  font-weight: bold;
+  color: #383c3e;
+}
+.fonts-size h2 {
+  font-size: 30px;
+  font-weight: bold;
+  color: #999999;
+}
+.fonts-size h3 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #212429;
+}
+.text1 {
+  font-size: 22px;
+  font-weight: medium;
+  color: #8080;
+}
+
+.text2 {
+  font-size: 16px;
+  font-weight: medium;
+  color: #98989e;
+}
+.text3 {
+  font-size: 16px;
+  font-weight: normal;
+  color: #383c3e;
+}
+.inline-ex {
+  font-size: 14px;
+  color: #212429;
+}
+/* end fonts and size */
+
+/* Logo and icon */
+
+.logo {
+  display: flex;
+  justify-content: center;
+}
+
+.logo-img {
+  margin: 5px;
+}
+
+.logo-name {
+  color: #45a69a;
+  font-size: 16px;
+}
+
+.icons {
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+}
+.icons img {
+  margin: 5px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.buttons button {
+  width: 80px;
+  height: 30px;
+  margin: 10px;
+  background-color: #45a69a;
+  border: transparent;
+  border-radius: 5px;
+  color: white;
+}
+
+.button2 button {
+  background-color: #cb6000;
+  border: transparent;
+}
+
+.button3 button {
+  background-color: white;
+  color: black;
+  border: solid 1px;
+}
+
+/* end Logo and icon */
+
+.weblayout {
+  height: 70%;
+  width: 70%;
+}
+.moblayout {
+  height: 20%;
+  width: 20%;
+}
+
+.leftCircle {
+  height: 30px;
+  width: 15px;
+  margin-top: 15px;
+  border-radius: 15px 0px 0px 15px;
+}
+
+.rightCircle {
+  height: 30px;
+  width: 15px;
+  margin-top: 15px;
+  border-radius: 0px 15px 15px 0px;
+}
+.colorHeader {
+  font-size: 13px;
+  margin-left: 10px;
+}
+
+#Faux-Keppel2 {
+  background-color: #45a69a;
+}
+#Faux-Keppel1 {
+  background-color: #a1cec9;
+}
+#Dark-Red1 {
+  background-color: #cb6000;
+}
+#Dark-Red2 {
+  background-color: #8f0000;
+}
+#Clouded-Greay1 {
+  background-color: #f0f0f0;
+}
+#Clouded-Greay2 {
+  background-color: #c4c4c4;
+}
+
+.grid {
+  width: 100%;
+  flex-direction: row;
+  margin-bottom: 5px;
+  display: flex;
+}
+input.stuff {
+  border: 0px solid #867e7e;
+  border-bottom-width: 1px;
+  margin-top: 10px;
+  background-color: transparent;
+}
+input::placeholder {
+  color: #c4c4c4;
+}
+input.stuff:hover {
+  border-color: #020202;
+  background-color: #fffff7;
+}
+
+.guideLineModel {
+  font-size: 13px;
+}
+
+/*modal contain will depend on the amount of information you ned*/
+form {
+  /* height: ; */
+
+  margin-left: 10px;
+  position: relative;
+
+  height: 100px;
+  width: 175px;
+  border-radius: 16px;
+  background-color: #ffffff;
+  color: black;
+  /* box-shadow: 10px 10px 10px 10px rgba(0.1, 0.1, 0.1, 0.1); */
+  /* display: flex; */
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px,
+    rgba(0, 0, 0, 0.1) 0px 2px 4px 0px,
+    rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+
+  text-align: left;
+  padding: 5px 5px 5px 5px;
+
+  position: relative;
+
+  /* align-items: center; */
+  /* position: relative; */
+}
+
+.textModel {
+  font-size: 7px;
+  color: black;
+  padding-top: 3px;
+  margin-left: 3px;
+  margin-right: 3px;
+}
+
+.mobnavbar {
+  height: 20px;
+  width: 100%;
+  background-color: #f0f0f0;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+}
+.mobnavbar .dreamTeamText {
+  position: absolute;
+  color: #45a69a;
+  margin: 3px;
+  font-size: 9px;
+  line-height: 0.5;
+  text-decoration: none;
+}
+.mobnavbar .inputbox {
+  position: absolute;
+  width: 10%;
+  height: 10px;
+  margin-left: 30%;
+  margin-top: 5px;
+  line-height: 0.5;
+}
+.mobnavbar .searchButton {
+  position: absolute;
+  width: 12%;
+  height: 10px;
+  margin-left: 40%;
+  margin-top: 3px;
+}
+
+.messageicon {
+  position: absolute;
+  height: 10px;
+  width: 10px;
+  margin-top: 5px;
+  right: 6%;
+}
+.menu {
+  position: absolute;
+  height: 10px;
+  width: 10px;
+  margin-top: 5px;
+  right: 0%;
+}
+
+.error {
+  color: #8f0000;
+  font-size: 10px;
+}
+
+.formContainer {
+  padding-left: 100px;
+  height: 100px;
+  width: 50px;
+}

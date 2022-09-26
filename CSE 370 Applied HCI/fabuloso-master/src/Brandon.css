@@ -1,0 +1,70 @@
+input.stuff {
+  border: 0px solid #867e7e;
+  border-bottom-width: 1px;
+  background-color: transparent;
+}
+
+input.stuff:hover {
+  border-color: #020202;
+  background-color: #FFFFF7;
+}
+
+label.info {
+  color: black;
+  font-size: 12px;
+}
+
+input.send {
+  background-color: #45a69a;
+  color: white
+}
+
+.CreatePage {
+  width: window;
+  height: window;
+  position: fixed;
+  flex-direction: row;
+  display: flex;
+}
+
+.ratingContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  position: relative;
+  left: 20px;
+}
+
+.ratingStar {
+  height: 50px;
+  width: 50px;
+  cursor: pointer;
+}
+
+.emptyStar img[id^="r"] {
+  display: none;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: 99;
+}
+
+#one:hover img[id^="r"] {
+  display: inline;
+}
+
+#two:hover img[id^="r"] {
+  display: inline;
+}
+
+#three:hover img[id^="r"] {
+  display: inline;
+}
+
+#four:hover img[id^="r"] {
+  display: inline;
+}
+
+#five:hover img[id^="r"] {
+  display: inline;
+}

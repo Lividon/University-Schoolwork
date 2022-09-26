@@ -1,0 +1,18 @@
+body {
+  background: rgb(50, 50, 50);
+}
+
+#body {
+  height: 30%;
+  width: 50%;
+  color: rgb(255, 255, 255);
+}
+
+p {
+  margin-left: 50px;
+}
+
+h1 {
+  margin-left: 200px;
+  color: white;
+}

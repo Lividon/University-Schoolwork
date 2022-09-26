@@ -1,0 +1,38 @@
+﻿Fabuloso 
+
+
+Github Url: https://github.com/CSE370HCI/fabuloso
+
+
+Zenhub Url: https://app.zenhub.com/workspaces/fabuloso-6206a21b199242001a17886d/board
+
+
+Alternate Dispute Resolution
+* Rock paper scissor challenge; best 2 out of 3. Must have all group members present.
+
+
+Description of Completed Version of our Project
+
+
+A social media website that allows users to find team members that are compatible; as in best match with their abilities and skills based on portfolio
+information. The project will allow users to post project ideas. They can use it to find teammates. 
+Also, users can find projects to do, give or receive reviews/feedback to teammates, show portfolio as albumb form, and chat feature.
+
+
+
+
+Description of a Typical user of our Project
+
+
+We have two typical users for our project. One type of user uses our program to advertise that 
+they have a project and would like to find people with compatible skills to assist in bringing the project to life.
+For example, companies could utilize this project to advertise their projects; 
+these projects could be in the form of an art project or a mobile application project or 
+used by students searching for teammates to work on class projects together. 
+Another typical user of our product would be a person interested in searching for projects to complete. 
+Such a user could be an individual who likes to do tasks and want to participate in projects to add to their resumes. 
+A user will utilize our product by creating an account.
+Users will be able to edit their profiles to reflect their interests and skills. 
+Users will either search for projects to be completed by explicitly searching for a project.
+Users could also search for another user to collaborate with on a project. 
+Also, users will develop their portfolios by creating albums showing previous projects they have done.

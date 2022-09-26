@@ -1,0 +1,604 @@
+.LoginDiv {
+  /* height: 75vh;
+      width: 80%; */
+  /* flex-wrap: wrap; */
+
+  background-color: rgba(196, 196, 196, 0.4);
+  /* color: black; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  min-width: 100vw;
+}
+
+form {
+  /* height: ; */
+  margin-left: 10px;
+  position: relative;
+
+  height: 550px;
+  width: 400px;
+  border-radius: 16px;
+  background-color: #ffffff;
+  color: black;
+  /* box-shadow: 10px 10px 10px 10px rgba(0.1, 0.1, 0.1, 0.1); */
+  /* display: flex; */
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px,
+    rgba(0, 0, 0, 0.1) 0px 2px 4px 0px,
+    rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+
+  text-align: left;
+  padding: 50px 50px 50px 50px;
+
+  position: relative;
+
+  /* align-items: center; */
+  /* position: relative; */
+}
+
+.LoginInput {
+  width: 75%;
+  font-size: 15px;
+  border-radius: 50px;
+  padding: 14px 50px;
+  margin: 8px 0;
+  border: 1px solid rgb(184, 182, 182);
+  /* border-color: #aaa; */
+}
+
+.LoginButton {
+  width: 100%;
+  font-size: 15px;
+  color: white;
+  background-color: #45a69a;
+  border-radius: 50px;
+
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+}
+
+.welcome {
+  color: #999;
+}
+
+.login {
+  font-weight: bold;
+}
+
+label {
+  font-size: medium;
+}
+
+span {
+  font-size: small;
+  color: #888;
+}
+
+.input-icons i {
+  position: absolute;
+}
+
+.icon {
+  padding: 23px;
+  color: #888;
+  margin-bottom: 10px;
+  min-width: 40px;
+}
+
+.input-field {
+  width: 100%;
+
+  text-align: center;
+}
+
+.Navbar {
+  position: fixed;
+  z-index: 2;
+  background-color: white;
+  width: 100%;
+  display: flex;
+  justify-content: left;
+}
+
+.Navbar .leftSide {
+  flex: 50%;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+.Navbar .leftSide .dreamworktitle {
+  font-size: x-large;
+  font-weight: bold;
+  color: #45a69a;
+  text-align: left;
+  margin-left: 60px;
+}
+
+.search-box {
+  background: white;
+  height: 50%;
+  width: 75%;
+  min-width: 250px;
+  margin-left: 50px;
+  border-radius: 40px;
+  padding: 1%;
+  border: 1px solid rgb(184, 182, 182);
+}
+
+.search-box .searchBar {
+  background-color: transparent;
+  height: 90%;
+  width: 80%;
+  flex: 20%;
+  padding: 1%;
+  border: gray;
+  outline: none;
+}
+
+.fa-search {
+  padding: 8px;
+  background: #45a69a;
+  color: white;
+  border-radius: 100%;
+  border: none;
+  display: flex;
+}
+
+.Navbar .rightSide {
+  flex: 50%;
+}
+
+.error-message {
+  color: #8F0000;
+  font-weight: bold;
+  font-size: 12px;
+  margin-top: -20px;
+  margin-bottom: 0px;
+}
+
+.rowContainer {
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+  padding: 0;
+}
+
+#postButton {
+  justify-content: space-between;
+}
+
+#name {
+  justify-content: space-between;
+}
+
+.button {
+  width: 100px;
+  height: 25px;
+  text-align: center;
+
+  cursor: pointer;
+  border: transparent;
+  border-radius: 5px;
+
+  color: black;
+}
+
+.button:hover {
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.4);
+  transform: translateY(-0.5px);
+}
+
+#updateButton {
+  margin-top: 20px;
+  background-color: #45a69a;
+}
+
+#deleteAccountButton {
+  margin-top: 20px;
+  background-color: #cb6000;
+}
+
+.deletePasswordForm {
+  display:flex;
+  flex-direction: column;
+  margin-top: 20px;
+  height: 75px;
+  width: 300px;
+  padding: 20px;
+}
+
+.deletePasswordForm span{
+  margin-left:0;
+}
+
+#delete {
+  margin-left: 100px;
+  margin-top: 10px;
+  background-color: #cb6000;
+}
+
+.inputdelete {
+  margin-bottom: 10px;
+}
+
+#passwordReset {
+  justify-content: space-between;
+}
+
+.settingForm {
+  display: flex;
+  justify-content: center;
+}
+
+#settingPage {
+  display: flex;
+  justify-content: center;
+}
+
+.mainContainer {
+  width: window;
+  height: 100%;
+  min-height: 1024px;
+  display: flex;
+  background-color: rgba(196, 196, 196, 0.5);
+  flex-direction: row;
+}
+
+.feedContainer {
+  background-color: transparent;
+  width: 100%;
+  margin-top: 4.4%;
+  padding-bottom: 20px;
+  max-height: 100%;
+  display: grid;
+  grid-auto-flow: row;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.sideContainer {
+  display: none;
+}
+
+.post {
+  height: fit-content;
+  width: 80%;
+  padding: 20px;
+  border-radius: 15px;
+  margin-top: 20px;
+  margin-left: 5%;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 6px 6px 0px,
+    rgba(0, 0, 0, 0.1) 0px 2px 4px 0px,
+    rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+}
+
+.profilePicturePost {
+  cursor: pointer;
+  height: 50px;
+  width: 50px;
+  border-radius: 25px;
+  margin-right: 10px;
+  background-color: black;
+}
+
+#commentPicture {
+  width: 35px;
+  height: 35px;
+}
+
+.postUser {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.usernamePost {
+  margin-top: 15px;
+  cursor: pointer;
+}
+
+.contentPictures {
+  width: 100%;
+  height: 415px;
+  display: grid;
+  grid-auto-flow: column;
+  overflow-x: auto;
+  overflow-y: hidden;
+  margin-top: 20px;
+}
+
+.Pictures {
+  height: 400px;
+  width: 400px;
+  margin-right: 5px;
+  background-size: contain;
+}
+
+.postCommentsContainer {
+  display: flex;
+  flex-direction: column;
+  padding-right: 15px;
+  border-color: transparent;
+  width: 100%;
+}
+
+.commentInput {
+  width: 120%;
+  height: 30px;
+  padding-left: 5px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  margin-left: -30px;
+  border: none;
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+.postDescription {
+  width: fit-content;
+  word-break: break-word;
+  font-size: 20px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.postDescriptionContainer {
+  width: 95%;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+
+.commentPost {
+  height: fit-content;
+  width: 80%;
+  margin-top: 10px;
+}
+
+#postIcons {
+  justify-content: space-between;
+}
+
+#PostIcons {
+  width: 100%;
+  justify-content: space-between;
+}
+
+#likeButton {
+  border-width: 3px;
+  margin-right: 10px;
+  padding-top: 5px;
+  width: 50%;
+  background-color: none;
+}
+
+#likeButton:hover {
+  background-color: rgba(0, 0, 0, 0.05);
+  box-shadow: none;
+  transform: translate(0px);
+}
+
+#shareButton:hover {
+  background-color: rgba(0, 0, 0, 0.05);
+  box-shadow: none;
+  transform: translate(0px);
+}
+
+.commentDescription {
+  font-size: 16px;
+  margin-top: 2px;
+}
+
+.usernameComment {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+#commentBox {
+  max-width: fit-content;
+  word-break: break-word;
+  max-width: 80%;
+  padding: 10px 10px 10px 10px;
+  background-color: rgba(161, 206, 201, 0.7);
+  border-radius: 20px;
+  word-wrap: normal;
+}
+
+#commentButton {
+  height: 35px;
+  width: 100px;
+  text-align: center;
+  padding-top: 5px;
+  font-size: 12px;
+  font-weight: bold;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+.buttonComment {
+  font-size: 12px;
+}
+
+.buttonComment:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+#shareButton {
+  text-align: center;
+  padding-top: 5px;
+  width: 50%;
+  background-color: none;
+}
+
+.columnContainer {
+  display: flex;
+  flex-direction: column;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+
+hr {
+  width: 100%;
+  color: rgba(0, 0, 0, 0.7);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.commentBox {
+  word-break: break-all;
+  min-width: 50px;
+  height: fit-content;
+  max-width: 80%;
+  border-radius: 10px;
+  background-color: #45a69a;
+  margin-top: 10px;
+  padding: 5px 5px 5px 5px;
+  color: white;
+}
+
+.userComment {
+  margin: 15px 10px 0px 0px;
+}
+
+.editButton {
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+  cursor: pointer;
+  background-color: white;
+}
+
+.deleteIcon {
+  height: 25px;
+  width: 25px;
+  cursor: pointer;
+  float: right;
+}
+
+#commentButtonDiv {
+  margin-left: 55px;
+  width: 115px;
+  margin-top: 2px;
+  justify-content: space-between;
+}
+
+@media only screen and (max-width: 800px) {
+  .sideContainer {
+    display: none;
+  }
+}
+
+.leftleft {
+  display: 50%;
+}
+
+.rightright {
+  display: 50%;
+}
+
+.Description {
+  font-size: 32px;
+  font-weight: bold;
+  color: grey;
+  margin-right: 20%;
+}
+
+.textforDescription {
+  color: #45a69a;
+  font-weight: bold;
+}
+
+.ourLogo {
+  height: 200px;
+  width: 200px;
+  padding-left: 20%;
+}
+
+#postSubmit {
+  height: 30px;
+  color: rgba(0, 0, 0, 0.7);
+  background-color: #45a69a;
+}
+
+#postRowContainer {
+  justify-content: space-between;
+}
+
+.messagesIcon {
+  margin-right: 12px;
+  height: 16px;
+  width: 16px;
+  margin-bottom: -2px;
+}
+
+.LoginForm {
+  margin-top: 10%;
+}
+
+/*Create Page css*/
+.Input-Box {
+  height: 20px;
+}
+
+.Create-Profile-Form {
+  width: fit-content;
+  height: fit-content;
+  flex-grow: 1;
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.MainCreatePage {
+  background-color: rgba(196, 196, 196, 1);
+  /* color: black; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  min-width: 100vw;
+}
+
+.Title-Form {
+  color: #888;
+}
+
+.Section-Title {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.Input-Box {
+  width: 90%;
+  font-size: 15px;
+  border-radius: 50px;
+  padding: 14px 25px;
+  margin: 8px 0px 20px;
+  border: 1px solid rgb(184, 182, 182);
+  /* border-color: #aaa; */
+}
+
+.Discord-Pound {
+  font-size: 25px;
+  margin: 20px 10px 0px 10px;
+}
+
+#SubmitCreate {
+  margin-left: 50%;
+}
+
+
+
+#TextBoxAuto {
+  border-radius: 5px;
+  border-style: unset;
+  background-color: rgba(0, 0, 0, 0.1);
+  color: black;
+}

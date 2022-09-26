@@ -1,0 +1,5 @@
+@media only screen and (max-width: 550px) {
+    form {
+        width: 300px;
+    }
+}

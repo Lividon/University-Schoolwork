@@ -1,0 +1,160 @@
+/* css for Followers page*/
+.followPage {
+  margin-top: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: white;
+  width: window;
+}
+
+.searchFollowersPage {
+  margin-top: 80px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.follow_under {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  float: left;
+  flex-wrap: wrap;
+  padding: 50px;
+  gap: 30px;
+}
+
+.topButtons {
+  /* margin: 5px;
+    padding: 30px;
+    box-sizing: border-box;
+    font-size: large;
+    background-color : green;  */
+  display: inline-block;
+  padding: 0.7em 1.4em;
+  margin-left: 20px;
+  /*margin : 0 0.3em 0.3em 0;*/
+  border-radius: 0.15em;
+  box-sizing: border-box;
+  text-transform: capitalize;
+  font-weight: 400;
+  color: white;
+  background-color: green;
+  text-align: center;
+  position: relative;
+}
+
+.topButtons:active {
+  top: 0.1em;
+}
+
+@media all and (max-width: 30em) {
+  .topButtons {
+    display: block;
+    margin: 2.4em auto;
+  }
+}
+
+
+.followerForm input {
+  /*display: block;*/
+  /*width: 100%; /* Full width */
+  /* height: 100%; Full height */
+
+}
+
+.modalApp {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-family: "Nunito", sans-serif;
+}
+
+.modalApp .openModalBtn {
+  width: 200px;
+  height: 40px;
+  border: none;
+  border-radius: 6px;
+  background-color: cornflowerblue;
+  color: white;
+  cursor: pointer;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.findFollowerBtn {
+  /* background-color: red;
+    color: white;
+    margin-top: -2.0px;
+    padding: 1em 1.0em;
+    
+    text-transform: uppercase; */
+  padding: 0.7em 1.4em;
+  margin-top: 20px;
+  margin-left: 20px;
+  max-height: 20px;
+  /*margin : 0 0.3em 0.3em 0;*/
+  border-radius: 10px;
+  text-transform: capitalize;
+  font-weight: 400;
+  color: white;
+  background-color: yellowgreen;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Non-Demo Styles
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  } */
+
+.form {
+
+  text-align: center;
+}
+
+.SearchForm {
+  display: flex;
+  justify-content: center;
+  height: 250px
+}
+
+#back {
+  padding: 0.7em 1.4em;
+  margin-left: 20px;
+  height: 50px;
+  width: 175px;
+  /*margin : 0 0.3em 0.3em 0;*/
+  border-radius: 10px;
+  text-transform: capitalize;
+  font-weight: 400;
+  color: white;
+  background-color: yellowgreen;
+  text-align: center;
+  text-decoration: none;
+}
+
+.submitButtn {
+  height: 250px;
+  width: 500px;
+  margin-top: 20px;
+}
+
+#submitButton {
+  background-color: #45a69a;
+  color: white;
+  margin-top: 10px;
+}
+
+.reverseRow {
+  height: 25px;
+}

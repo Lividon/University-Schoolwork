@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Sofia&display=swap');
+
+body  {
+    background: #ACC12F;
+    padding : 5em 2em; //space on the left side of the browser
+    margin : 0;
+    font-family: 'Gideon Roman';
+}
+
+.fancy {
+    position: relative;
+    background-color: #2DC7FF;
+    padding: 2rem;
+    text-align: center;
+    max-width: 500px;
+}
+
+.fancy::before {
+    content: "";
+
+    position : absolute;
+    z-index  : -1;
+    bottom   : 15px;
+    right    : 5px;
+    width    : 50%;
+    top      : 80%;
+    max-width: 200px;
+
+    box-shadow: 0px 13px 10px black;
+    transform: rotate(4deg);
+}
+
